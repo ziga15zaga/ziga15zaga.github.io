@@ -1,0 +1,326 @@
+body {
+	display: block;
+	background-color: #ffffff;
+}
+#main {
+	color:#ffffff;
+	display: block;
+    background: url(img/bg.png) center center no-repeat;
+	background-size: cover;
+	height: 670px;
+	margin-bottom: 70px;
+}
+#our-story {
+	display: block;
+	height: 420px;
+}
+#story-pic {
+	display: block;
+    background: url(img/bg2.png);
+	background-size: cover;
+	height: 550px;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 5;
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: 900;
+	margin-bottom: 70px;
+}
+#expertise {
+	display:block;
+	height: 755px;
+	margin-bottom:70px;
+}
+#teams {
+	display: block;
+    background: url(img/bg3.png);
+	background-size: cover;
+	height: 760px;
+	font-family: Roboto, Arial, sans-serif;
+	line-height: 1.5;
+	color:#ffffff;
+	text-decoration: none;
+	margin-bottom: 70px;
+}
+#work {
+	display: block;
+	height: 665px;
+}
+#people-say {
+	display: block;
+    background: url(img/bg4.png);
+	background-size: cover;
+	height: 500px;
+	line-height: 1.5;
+	color:#ffffff;
+	text-decoration: none;
+	padding-top: 70px;
+	margin-bottom: 70px;
+}
+#contact {
+	line-height: 1.5;
+	text-decoration: none;
+	height: 585px;
+	display: block;
+}
+#footer {
+	display: block;
+    background: url(img/footer.png);
+	background-size: cover;
+	height: 400px;
+	line-height: 1.5;
+	color:#ffffff;
+	text-decoration: none;
+	padding-top: 70px;
+}
+#link {
+	font-family: Roboto, Arial, sans-serif;
+	border: 1.5px solid #00e0d0;
+	border-radius: 2px;
+	font-size:16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #00e0d0;
+	padding: 6px 6px;
+	font-weight: 900;
+	transition: background .2s linear, color .2s linear; 
+}
+#link:hover{
+	background: #00e0d0;
+	color: #ffffff;
+}
+a.foot {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding-right: 40px;
+}
+a.atxt {
+	font-style: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+}
+a.atxt, a.foot:hover {
+	color:#00e0d0;
+	text-decoration:none;
+}
+h1 {
+	font-family: playfairdisplay, 'Times New Roman', Times, serif;
+	font-size: 32px;
+}
+h2 {
+	font-family: playfairdisplay, 'Times New Roman', Times, serif;
+	font-size: 22px;
+	font-weight: 900;
+	text-transform: uppercase;
+	
+}
+h3 {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+h4 {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+h5 {
+	font-family: playfairdisplay, 'Times New Roman', Times, serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+P {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.8;
+}
+p.hbot {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+}
+p.botname {
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 1;
+}
+a.menu-item {
+	color:#ffffff;
+	text-decoration:none;
+	font-weight: 800;
+	transition: background .1s linear, color .1s linear; 
+}
+a.menu-item:hover {
+	color:#00e0d0;
+	text-decoration:none;
+}
+.anim1 a {
+	color:#00e0d0;
+}
+.top-menu {
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-top: 7px;
+}
+.row-header-menu {
+	padding-top: 10px;
+}
+.main {
+	padding-top: 180px;
+}
+hr.mainhr {
+	width: 50px;
+	border-color: #00e0d0;
+}
+hr.itemhr {
+	width: 50px;
+	border-color: #c6c4c9;
+	border-width: 2px;
+	padding-bottom: 50px;
+}
+hr.teamshr {
+	width: 50px;
+	padding-bottom: 50px;
+}
+.main p{
+	margin-bottom: 50px;
+}
+.our-story-txt h2 {
+	padding-bottom: 15px;
+}
+.our-story-txt p{
+	padding-bottom: 35px;
+}
+.play a {
+	background: url(img/play.png) center center no-repeat;
+	height: 250px;
+	display: block;
+}
+.play a:hover {
+	background: url(img/play1.png) center center no-repeat;
+}
+.play-pic {
+	padding-top: 200px;
+}
+.item-content {
+	display:block;
+	padding-left: 170px;
+	padding-right: 170px;
+}
+.content-top {
+	padding-bottom: 45px;
+}
+.content-bottom {
+	padding-top: 45px;
+	padding-bottom: 105px;
+}
+.teams-header {
+	padding-top: 70px;
+}
+.team-photo {
+	padding-bottom: 70px;
+}
+.ramka-bot {
+	width: 220px;
+	height:78px;
+	border: 1px solid;
+}
+.ramka-top{
+	height: 230px;
+	width: 220px;
+	background-color: #ffffff;
+}
+.team-bot p {
+	padding-bottom: 20px;
+}
+.work-head {
+	padding-bottom: 65px;
+}
+.work-head a {
+	font-style: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+	color: #000;
+}
+.exr {
+	height: 400px;
+	margin-bottom: 70px;
+}
+.exr-top, .exr-bot {
+	height: 50%;
+}
+.people-txt {
+	padding-top: 45px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #c6c4c9;
+	padding-bottom: 25px;
+}
+.people {
+	padding-bottom: 25px;
+}
+form {
+	padding-top: 45px;
+	padding-bottom: 25px;
+}
+.footerlogo {
+	padding-bottom: 35px;
+}
+ul {
+	padding:0;
+	list-style: none;
+}
+li a { 
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+	font-style: Roboto, Arial, sans-serif;
+	transition: background .1s linear, color .1s linear; 
+}
+li a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+.loc {
+	padding: 50px 0 15px 0;
+}
+input.foot {
+	background: transparent;
+	width: 220px;
+}
+.submit-btn {
+    background: #a099b4;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+	margin-left: 10px;
+    height: 35px;
+    width: 55px;
+}
+.upfoot {
+	padding-bottom:  65px;
+}
+a.foot {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding-right: 40px;
+}
+a.atxt {
+	font-style: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+}
+#main, #our-story, #story-pic, #expertise, .row, .item-content, .content-top, .content-bottom, 
+.menu-item, .col-lg-2, .play, .play-pic, .exr, ul, li{
+	//border: 1px solid red;
+}
