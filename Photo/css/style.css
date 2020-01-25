@@ -114,7 +114,27 @@ a {
 a:hover {
 	text-decoration: none;
 }
-/*section*/
+
+/*Menu*/
+.headhesive {
+	background-color: #3c2834;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	transform: translateY(-100%);
+	transition: 0.5s linear; 
+	opacity: 50%;
+	z-index: 1;
+}
+.headhesive:hover {
+	opacity: 90%;
+}
+.headhesive--stick {
+	transform: translateY(0);
+}
+
+/*Section*/
+
 #main {
 	display: block;
 	background: url(img/bg1.png) center center no-repeat;
@@ -166,7 +186,6 @@ a:hover {
 
 #top-menu {
 	position: relative;
-	padding-bottom: 255px;
 }
 .menu-main {
 	list-style: none;
@@ -202,6 +221,7 @@ a:hover {
 	padding-bottom: 20px;
 }
 .main-content {
+	padding-top: 255px;
 	padding-bottom: 242px;
 }
 .social-icon a {
@@ -323,6 +343,7 @@ a.load-btn span:hover {
 	text-transform: uppercase;
 	font-size: 14px;
 	color: #373737;
+	text-decoration: none;
 	transition: background .2s linear, color .2s linear; 
 }
 .nav-foot a:hover {
