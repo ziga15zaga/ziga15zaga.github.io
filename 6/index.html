@@ -15,7 +15,7 @@ crossorigin="anonymous">
 
 <body>
 <!--Main-->
-<section id="main">
+<section id="main" class="parallax-window" data-parallax="scroll" data-image-src="css/img/bg1.png">
 <div class="container">
 	<div class="logo">
 	<a href="index.html"><img src="css/img/logo.png" class="wow fadeIn" data-wow-duration="3s"></a>
@@ -30,11 +30,11 @@ crossorigin="anonymous">
 <section id="prog">
 <div class="container">
 <div class="row">
-	<div class="left-item  wow fadeInLeft" data-wow-duration="2s">
+	<div class="left-item wow fadeInLeft" data-wow-duration="2s">
 	<div class="col-lg-2 col-lg-offset-1 col-xs-4">
 		<img src="css/img/doc.png">
 	</div>
-	<div class="col-lg-3 col-xs-8">
+	<div class="col-lg-3 col-xs-7">
 	<h2>Documents</h2>
 	<p class="prog-txt">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
 	Aenean sollicitudin.</p>
@@ -44,7 +44,7 @@ crossorigin="anonymous">
 	<div class="col-lg-2 col-xs-4">
 		<img src="css/img/photos.png">
 	</div>
-	<div class="col-lg-3 col-xs-8">
+	<div class="col-lg-3 col-xs-7">
 	<h2>Photoshop</h2>
 	<p class="prog-txt">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
 	Aenean sollicitudin.</p>
@@ -142,9 +142,11 @@ crossorigin="anonymous">
 
 
 <!--Scripts-->
-<!--Плавный переход по якорям-->
+<!-- Подключение JQuery-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
 </script>
+
+<!--Плавный переход по якорям-->
 <script type="text/javascript">
  $(document).ready(function(){
     $("").on("click","a", function (event) {
@@ -155,6 +157,9 @@ crossorigin="anonymous">
     });
 });
 </script>
+
+<!--Parallax JS-->
+<script src="js/parallax.min.js"></script>
 
 <!--JS-->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
