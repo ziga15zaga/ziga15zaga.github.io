@@ -1,5 +1,8 @@
 
 /*Setting*/
+sectioin{
+	height: 100vh;
+}
 hrml {
 	overflow-x: hidden;
 }
@@ -53,7 +56,7 @@ a.load-btn:hover {
 /*SECTION*/
 
 #main {
-	background: url(img/bg1.png) center center no-repeat;
+	
 	height: 800px;
 	text-align: center;
 	background-size: cover;
