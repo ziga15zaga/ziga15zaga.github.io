@@ -3,7 +3,7 @@
 <head>
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="css/img/">
+<link rel="icon" href="css/img/logo.ico">
 <title>Right Place WG</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
@@ -109,24 +109,27 @@ crossorigin="anonymous">
 </iframe>
 	<div class="col-lg-4 col-lg-offset-8 forma-bg">
 	<img src="css/img/ellipse.png">
-		<form class="form-horizontal">
+		
+			<!----------FORMA---------->
+		
+		<form id="formmailer" action="send.php" method="POST" class="form-horizontal" name="callback">
 		<div class="form-group">
 			<div class="col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2">
-			<input type="text" placeholder="Your name">
+			<input type="text" name="user_name" placeholder="Your name">
 			</div>
 		</div>
 		<div class="form-group">
 			<div class="col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2">
-			<input type="email" placeholder="Email">
+			<input type="email" name="user_email" placeholder="Email">
 			</div>
 		</div>
 		<div class="form-group">
 			<div class="col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2">
-			<textarea type="text" placeholder="Leave a message" height="50px"></textarea>
+			<textarea type="message" name="message" placeholder="Leave a message" height="50px"></textarea>
 			</div>
 		</div>
 		<div class="col-lg-3 col-lg-offset-4 text-center">
-		<a href="#" type="submit"><i class="fas fa-check-circle"></i></a>
+			<button type="submit" class="sub"><i class="fas fa-check-circle"></i></button>
 		</div>
 		</form>
 	</div>
@@ -162,7 +165,25 @@ crossorigin="anonymous">
 <script src="js/parallax.min.js"></script>
 
 <!--JS-->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+<!-------------SUKA FORMA---------------->
+<script>
+      $('form').submit(function(event) {
+        event.preventDefault();
+        $.ajax({
+          type: "POST",
+          url: "send.php",
+          data: $(this).serialize()
+        }).done(function() {
+		$(this).find("input").val('');
+          alert('message has been sended');
+		  $("#formmailer").trigger("reset");
+        });
+		return false;
+        });
+
+</script>
 
 <!--Подключение Fotorama-->
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">

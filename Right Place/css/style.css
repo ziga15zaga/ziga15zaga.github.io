@@ -39,13 +39,14 @@ p.footer-txt {
 	color: #fff;
 	padding-top: 21px;
 }
-.load-btn {
+a.load-btn {
 	font-size: 27px;
 	color: #fff;
 	border: 2px solid #fff;
 	border-radius: 8px;
 	padding: 12px 33px;
 	transition: 0.5s;
+	text-decoration: none;
 }
 a.load-btn:hover {
 	text-decoration: none;
@@ -128,19 +129,28 @@ input, textarea {
 	background: transparent;
 	border: 0.5px solid;
 	border-radius: 3px;
+	padding-left: 10px;
 }
 textarea {
 	height: 80px;
 }
-::placeholder {
-	padding-left: 10px;
+.sub {
+	background: transparent;
+	border: 0px;
 }
 .fas {
-	font-size: 66px;
-	color: #43a06d;
-	padding-top: 20px;
+	font-size: 67px;
+	color:#43a06d;
+	transition: 0.2s;
 }
-
+.fas:active{
+	color:#4f4e4e;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
 
 	
 /*--------------------------------------------------
